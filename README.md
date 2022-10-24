@@ -124,8 +124,7 @@ Go to package.json and add the following.
     "test": "react-scripts test",
     "eject": "react-scripts eject",
     "electron:serve": "concurrently -k \"cross-env BROWSER=none yarn start\" \"yarn electron:start\"",
-    "electron:build": "yarn build && electron-builder -c.extraMetadata.main=build/main.js",
-    "electron:start": "wait-on tcp:3000 && electron ."
+    "electron:build": "yarn build && electron-builder -c.extraMetadata.main=build/main.js"
   },
 ```
 <details><summary>To explain what they do </summary>
@@ -133,13 +132,10 @@ Go to package.json and add the following.
 
 - start-react — Will start just the React app only
 - build-react — Will build the React app only
-- start-electron — This will use nodemon to watch for changes in the public folder and then execute electron. If you want to add more folders to be monitored, just add - another —-watch followed by the path to that folder.
-- dev — Will first run React, wait for it to boot up and then start Electron.
-- postinstall — It will make electron-builder install any dependencies we need for our app
-- pack-app — Building the app can take time. Packing the app is shorter. It’ll just pack the app so you can test your production builds.
-- build- Builds your app for distribution
-- test — Comes with Create React App. Testing for your React app.
 - eject — Comes with Create React App. Ejects your app from the CRA pipeline.
+- test — Comes with Create React App. Testing for your React app.
+- electron:serve — Will first run React, wait for it to boot up and then start Electron.
+- electron:build- Builds your app for distribution
 
 </p>
 </details>
