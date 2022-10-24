@@ -1,7 +1,7 @@
 # Creating standalone Desktop Applications with React, Electron.
 
 
-There are quite a few tutorials on the Internet that cover the process of setting up React inside an Electron app but very few (if any) cover the solutions to common problems you run in to when packaging the app for distribution. In this blog, I am going to run you through how I setup a production ready work flow for creating a desktop app with React in Electron 
+There are quite a few tutorials on the Internet that cover the process of setting up React inside an Electron app but very few (if any) cover the solutions to common problems you run in to when packaging the app for distribution. I am going to run you through how I setup a production ready work flow for creating a desktop app with React in Electron 
 
 
 ## Let’s get started.
