@@ -178,7 +178,7 @@ electron.js:
  npm run electron:serve
  ```
  
- # original source <a href="https://wykrhm.medium.com/creating-standalone-desktop-applications-with-react-electron-and-sqlite3-269dbb310aee">Here</a>
+original source <a href="https://wykrhm.medium.com/creating-standalone-desktop-applications-with-react-electron-and-sqlite3-269dbb310aee">Here</a>
 
  
  
