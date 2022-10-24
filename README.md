@@ -173,7 +173,7 @@ sending messages to the backend:
 ```javascript 
 window.api.testSend("YourMessage")
 ```
-in the backend:
+electron.js:
 ```javascript
   //IPC MAIN
   ipcMain.on("test-send", (event, args) => {
