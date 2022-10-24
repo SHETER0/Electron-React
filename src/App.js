@@ -2,7 +2,7 @@ import logo from './logo.svg';
 import './App.css';
 
 function App() {
-  //sned message to the backedn
+  //sned message to the backend
   window.Electron.testSend("Hello From React")
   return (
     <div className="App">
