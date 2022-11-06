@@ -30,9 +30,6 @@ yarn add electron electron-builder nodemon concurrently wait-on -D
 - cross-env.
 
 ```cmd
-yarn add electron electron-builder nodemon concurrently wait-on -D
-```
-```cmd
 yarn add electron-is-dev cross-env 
 ```
 
